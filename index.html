@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/navstyle.css">
+    <link rel="stylesheet" href="./css/homestyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TREKK</div>
+        <nav>
+            <ul class="nav_links">
+                <li><a class="nl" href="#">Home</a></li>
+                <li><a class="nl" href="./about.html">About</a></li>
+                <li><a class="nl" href="./login.html">Login</a></li>
+                <li><a class="nl" href="./signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+        <a class="c1" href="./contact.html"><button class="cbut">Contact</button></a>
+    </header>
+    <section class="slider-section">
+        <div class="slider">
+            <div class="slides">
+                <img class="slide" src="./images/image1.jpg" alt="Image #1">
+                <img class="slide" src="./images/image2.jpg" alt="Image #2">
+                <img class="slide" src="./images/image3.jpg" alt="Image #3">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+    </section>
+    
+    
+    <script src="./js/homejs.js"></script>
+        
+</body>
+</html>

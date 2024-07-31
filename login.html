@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/navstyle.css">
+    <style>
+        .pwd {
+            color: blue;
+        }
+    
+        #user {
+            color: blue;
+            padding: 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/loginstyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">TREKK</div>
+        <nav>
+            <ul class="nav_links">
+                <li><a class="nl" href="./index.html">Home</a></li>
+                <li><a class="nl" href="./about.html">About</a></li>
+                <li><a class="nl" href="#">Login</a></li>
+                <li><a class="nl" href="./signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+        <a class="c1" href="./contact.html"><button class="cbut">Contact</button></a>
+    </header>
+    <div class="c">
+        <center>
+            <h1>Login</h1>
+            <div id="user">
+                <label for="u">Username</label>
+                <input type="text" id="u" name="r" required>
+            </div>
+            <br>
+            <div class="pwd">
+                <label for="p">Password</label>
+                <input type="password" id="p" name="r" required>
+            </div>
+            <br>
+            <input style="color:red;" type="submit" value="Login">
+        </center>
+    </div>
+</body>
+
+</html>
