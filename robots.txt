@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://darkblade33.github.io/trekk_website/sitemap92.xml
